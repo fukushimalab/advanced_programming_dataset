@@ -12,3 +12,18 @@ finalにコピーして使ってください．
 
 なお，各画像はpngで圧縮されています．
 適切に処理してください．
+
+## ディレクトリ構成
+* final_dataset
+  * dataset1
+    * image
+      * level1
+      * ...
+      * level7
+  * ...
+  * dataset20
+  * template_1to10 (dataset1から10用のテンプレート画像)
+  * template_11to15 (dataset11から15用のテンプレート画像)
+  * template_16to20 (dataset16から20用のテンプレート画像)
+* DatasetGenerator
+  * 新しく作るためのコードです．本講義中は使いません
